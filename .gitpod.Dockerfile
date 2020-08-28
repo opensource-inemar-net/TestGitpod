@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full
 
 # Install deltarpm as it can speed up the upgrade processes, and tar as it's needed for installing Maven
-RUN RUN sudo apt-get update 
+RUN sudo apt-get update 
 RUN sudo apt-get install -y deltarpm tar
 
 
